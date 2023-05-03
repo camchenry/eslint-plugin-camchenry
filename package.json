@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-camchenry",
+  "description": "A collection of helpful ESLint rules",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camchenry/eslint-plugin-camchenry.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camchenry/eslint-plugin-camchenry/issues"
+  },
+  "homepage": "https://github.com/camchenry/eslint-plugin-camchenry#readme",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.39.0",
+    "jest": "^29.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-jest": "^29.5.0"
+  }
+}
